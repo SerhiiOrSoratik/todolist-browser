@@ -1,0 +1,34 @@
+body {
+    margin: 0;
+    background-color: gainsboro;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.main {
+   display: flex;
+   justify-content: center;
+}
+
+.todo {
+    width: 700px;
+    height: 1000px;
+    background-color: whitesmoke;
+}
+
+.container {
+    padding: 10px 0px 10px 100px;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+h1 {
+    text-align: center;
+}
+
+.task-style {
+    border: 1px solid black;
+    width: 80%;
+    padding-left: 15px;
+    margin-bottom: 15px;
+}
