@@ -10,7 +10,19 @@
 </head>
 <body>
     <div class="main">
+        
         <div class="todo">
+            <div class=form-container>
+                <form id="task_form">
+                    <h3>New task</h3>
+                    <div class="input-flex">
+                        <input type="text" name="title" placeholder="title">
+                        <input type="date" name="due_date" placeholder="due_date">
+                        <input type="text" name="description" placeholder="description">
+                    </div>
+                    <button type="submit">Add</button>
+                </form>
+            </div>
             <h1 >TODO List</h1>
             <h1>Active task</h1>
         <div id='container' class="container" >
@@ -23,6 +35,9 @@
             
         </div>
     </div>
+    
+   
+    
 </body>
 <script src="script.js"></script>
 </html>

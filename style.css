@@ -1,50 +1,68 @@
 body {
-    margin: 0;
-    background-color: gainsboro;
-    font-family: 'Courier New', Courier, monospace;
+  margin: 0;
+  background-color: gainsboro;
+  font-family: "Courier New", Courier, monospace;
 }
 
 .main {
-   display: flex;
-   justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .todo {
-    width: 700px;
-    height: 1000px;
-    background-color: whitesmoke;
+  width: 700px;
+  height: 1000px;
+  background-color: whitesmoke;
 }
 
 .container {
-    padding: 10px 0px 10px 100px;
-    display: flex;
-    justify-content: flex-start;
-    flex-wrap: wrap;
+  padding: 10px 0px 10px 100px;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
 }
 
 h1 {
-    text-align: center;
+  text-align: center;
 }
 
 .task-style {
-    border: 1px solid black;
-    width: 80%;
-    padding-left: 15px;
-    margin-bottom: 15px;
+  border: 1px solid black;
+  width: 80%;
+  padding-left: 15px;
+  margin-bottom: 15px;
 }
 
 .task-style * {
-    display: inline-block;
+  display: inline-block;
 }
 
 .description {
-    color: darkgray;
+  color: darkgray;
 }
 
 .overdue-task {
-    color: red;
+  color: red;
 }
 
 .delete-task {
-    cursor: pointer;
+  cursor: pointer;
+}
+
+form {
+  width: 100%;
+  border: 1px solid black;
+  text-align: center;
+}
+
+form button {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.input-flex {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
 }
