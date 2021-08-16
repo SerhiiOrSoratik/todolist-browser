@@ -32,3 +32,19 @@ h1 {
     padding-left: 15px;
     margin-bottom: 15px;
 }
+
+.task-style * {
+    display: inline-block;
+}
+
+.description {
+    color: darkgray;
+}
+
+.overdue-task {
+    color: red;
+}
+
+.delete-task {
+    cursor: pointer;
+}
