@@ -45,6 +45,10 @@ h1 {
   color: red;
 }
 
+.now-day-task {
+  color: yellow;
+}
+
 .delete-task {
   cursor: pointer;
 }
