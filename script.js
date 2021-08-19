@@ -35,10 +35,9 @@ const checkDate = (date, done) => {
     date = new Date(date);
     let nowDay = new Date();
     nowDay = new Date(nowDay.getFullYear(), nowDay.getMonth(), nowDay.getDate(), 0, 0, 0, 0);
-    if (nowDay >= date) {
-      
+    if (nowDay >= date && done == false) {
       dateTag = `<p class="overdue-task">${date.toLocaleDateString("en-US", options) || ''}</p>`;
-    } else if (nowDay < date || done == false) {
+    } else if (nowDay < date || done == true) {
       dateTag = `<p>${date.toLocaleDateString("en-US", options) || ''}</p>`;
     }
     return dateTag;
